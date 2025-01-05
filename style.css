@@ -5,8 +5,9 @@
 
 body {
     color: white;
-    background-color: #180E13;
-    /* background: radial-gradient(50% 100% at 50% 0%, rgba(44, 66, 156, 0.15) 0%, rgba(0, 0, 0, 0) 100%); */
+    /* background-color: #180E13; */
+    background: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9) );
+    
 }
 .header {
     margin-top: 20px;
@@ -35,15 +36,18 @@ body {
 }
 
 .content-1 {
-    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/4f5e84fc-704f-49fb-8b7a-3cec295575d0/web_tall_panel/PK-en-20241021-TRIFECTA-perspective_22cf28c1-2d8b-4c55-b3aa-c518bf18d3fd_large.jpg');
+    /* background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/4f5e84fc-704f-49fb-8b7a-3cec295575d0/web_tall_panel/PK-en-20241021-TRIFECTA-perspective_22cf28c1-2d8b-4c55-b3aa-c518bf18d3fd_large.jpg'); */
+    background:linear-gradient(rgba(0, 0, 0, 0),rgba(0,0,0, 0.7)),url('https://assets.nflxext.com/ffe/siteui/vlv3/4f5e84fc-704f-49fb-8b7a-3cec295575d0/web_tall_panel/PK-en-20241021-TRIFECTA-perspective_22cf28c1-2d8b-4c55-b3aa-c518bf18d3fd_large.jpg');
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* background-position: center; */
     border-radius: 29px;
     border-end-start-radius:0px;
     border-end-end-radius: 0px;
     height: 500px;
     
-    opacity: 0.9;
+    /* opacity: 0.9; */
     width: 90vw;
-    background-size: cover;
     margin-top: 17px;
     display: flex;
     justify-content: center;
@@ -58,9 +62,11 @@ body {
     font-size:30px;
   
     margin-top: 300px;
+    text-shadow: 2px 2px 10px white;
 }
 .content-1 > div >p{
     font-size: 22px;
+    text-shadow: 2px 2px 10px white;
 }
 .lineimg{
     background-image: url('line image.jpg');
@@ -238,7 +244,7 @@ body {
 
 }
 .content-6 .card{
-    background-color: #272828;
+    background:linear-gradient(rgb(128, 128, 128,0.5),rgb(0,0,0));
     display: flex;
     border-radius: 19px;
     height: 130px;
